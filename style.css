@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'fina';
+    src: url(fontes/Roboto-Thin.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(rgb(243, 255, 245) 10%, #98e4b9 );
+    height: 100vh
+}
+
+header{
+    width: 100%;
+    height: 65px;
+    background-color: #10572E;
+}
+
+img{
+    margin-top: 5px;
+    height: 50px;
+}
+
+article h1{
+    margin-top: 45px;
+    font-size: 45px;
+    font-family: 'fina';
+    text-align: center;
+}
+
+article h2{
+    margin-top: 35px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(151, 151, 151);
+    margin-bottom: 60px;
+}
+
+h2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #10572E;
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1100px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    font-size: 50px;
+}
+
+button{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 15px;
+    background-color:#1C9B53;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color:#167941;
+}
+
+.container .card{
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-inline: 7px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 1px 2px 15px rgb(158, 158, 158);
+}
+
+.container .card .card-title .card-content ul{
+    line-height: 35px;
+}
+
+ul{
+    color: gray;
+}
+
+li{
+    list-style-type: none;
+}
+
+.check{
+    list-style-image: url(imgs/Praveen-Minimal-Outline-Check.16.png);
+    margin-left: 20px;
+    text-align: left;
+}
+
